@@ -162,7 +162,9 @@ width: fit-content;
 font-size: large;
 text-decoration: none;
 }
-
+.footer .cta {
+    margin-bottom: 1rem;
+}
 ul{
     padding: 0;
 }

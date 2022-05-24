@@ -219,6 +219,9 @@ i {
 ul {
     max-width: 25vw;
 }
+.button-container {
+    width: 40rem;
+}
 
 @media only screen and (max-width: 767px) {
     body {

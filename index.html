@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">   
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js "></script>
+    <script src="https://kit.fontawesome.com/37be34e1bd.js" crossorigin="anonymous"></script>    
+    <title>Kondo</title>
+</head>
+<body>
+    <!-- <div class="nav--container">
+        <ul class="nav">
+            <li class="nav--item bold">Home</li>
+            <li class="nav--item bold">About</li>
+            <li class="nav--item bold">Pricing</li>
+        </ul>
+    </div> -->
+    <div class="flex">
+        <img src="./images/Kondo.svg" class="logo">
+    </div>
+    <main class="flex">
+        <div class="flex" id="about" data-aos="fade-left" data-aos-offset="300">
+            <div class=" flex flex--row card flex--grow  mobile--reverse">
+                <div class="flex center mx-10 w-30">
+                    <img src="./images/screen-home.svg" class="phone phone--half center">
+                </div>
+                <div class="flex flex--col justify--center w-30 pr-10">
+                    <h1 class="bold title large">Wat is Kondo?</h1>
+                    <p>Het ideale platform om co-housing partners te vinden. Met slechts een paar kliks kan je direct je nieuwe huisgenoot tegenkomen.</p>
+                    <div class="button-container">
+                        <a class="cta btn bold" href="#about">Download now</a>
+                        <a class="cta btn mx-1" target=”_blank” href="https://www.figma.com/proto/zDf7A6buMPuVrQopB1CLam/Kondo?node-id=10%3A90&scaling=scale-down&page-id=0%3A1&starting-point-node-id=10%3A90&show-proto-sidebar=1">Test de app</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="flex center" id="why"   data-aos="fade-right" data-aos-offset="300">
+            <div class="flex flex--col card mx-5">
+                <h1 class="bold title">Waarom Kondo?</h1>
+                <ul>
+                    <li class="flex listitem">
+                        <div class="icon--container align--center">
+                            <i class="fa-solid fa-arrows-to-circle green"></i>
+                        </div>
+                        <div>
+                            <span class="flex flex-col bold">Alles wat je zoekt op één plaats</span>
+                            <span>Kijk rond op de kaart en vind jouw ideale woonplaats.</span>
+                        </div>
+                    </li>
+                    <li class="flex listitem">
+                        <div class="icon--container align--center">
+                            <i class="fa-solid fa-wallet green"></i>
+                        </div>
+                        <div>
+                            <span class="flex flex-col bold">Financiële voordelen</span>
+                            <span>Stuur berichten naar andere mensen en zie zo of het misschien wel jouw ideale co-housing partner is!</span>
+                        </div>
+                    </li>
+                    <li class="flex listitem">
+                        <div class="icon--container align--center">
+                            <i class="fa-solid fa-people-group green"></i>
+                        </div>
+                        <div>
+                            <span class="flex flex-col bold">Eenzaamheid is verleden tijd</span>
+                            <span>Wanneer je jouw nieuwe co-housing partner gevonden hebt kan je zelf verder afspreken hoe het verder verloopt.</span>
+                        </div>
+                    </li>
+                    <li class="flex listitem">
+                        <div class="icon--container align--center">
+                            <i class="fa-solid fa-arrows-left-right-to-line green"></i>
+                        </div>
+                        <div>
+                            <span class="flex flex-col bold">Overbrug de generatiekloof</span>
+                            <span>Wanneer je jouw nieuwe co-housing partner gevonden hebt kan je zelf verder afspreken hoe het verder verloopt.</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="flex flex--col card mx-5">
+                <h1 class="bold title">Simpel proces</h1>
+                <ul>
+                    <li class="flex listitem">
+                        <div class="icon--container align--center">
+                            <i class="fa-solid fa-location-dot green"></i>
+                        </div>
+                        <div>
+                            <span class="flex flex-col bold">Zoek een Huis</span>
+                            <span>Kijk rond op de kaart en vind jouw ideale woonplaats.</span>
+                        </div>
+                    </li>
+                    <li class="flex listitem">
+                        <div class="icon--container align--center">
+                            <i class="fa-solid fa-comments green"></i>
+                        </div>
+                        <div>
+                            <span class="flex flex-col bold">Connect</span>
+                            <span>Stuur berichten naar andere mensen en zie zo of het misschien wel jouw ideale co-housing partner is!</span>
+                        </div>
+                    </li>
+                    <li class="flex listitem">
+                        <div class="icon--container align--center">
+                            <i class="fa-solid fa-house-chimney-user green"></i>
+                        </div>
+                        <div>
+                            <span class="flex flex-col bold">Inwonen</span>
+                            <span>Wanneer je jouw nieuwe co-housing partner gevonden hebt kan je zelf verder afspreken hoe het verder verloopt.</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="flex "  id="price"  data-aos="fade-left" data-aos-offset="300">
+            <div class=" flex flex--row card flex--grow  mobile--reverse">
+                <div class="flex center mx-10 w-30">
+
+                    <img src="./images/screen-register.svg" class="phone phone--half center">
+                </div>
+                <div class="flex flex--col justify--center w-30 pr-10">
+                    <h1 class="bold title">Slechts €9,99/maand</h1>
+                    <p>Maak een account aan en ga aan de slag voor slechts €9,99 per maand! Hiermee krijgt u volledige toegang to alle functies van het platform!</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex center" id="steps"   data-aos="fade-right" data-aos-offset="300">
+            <div class="flex flex--col card mx-1 px-5">
+                <h1 class="bold title center">Registreer</h1>
+                <img src="./images/screen-register.svg" class="phone center">
+
+            </div>
+
+            <div class="flex flex--col card mx-1 px-5">
+                <h1 class="bold title  center">Vind een woning</h1>
+                <img src="./images/screen-listing.svg" class="phone center">
+            </div>
+
+            <div class="flex flex--col card mx-1 px-5">
+                <h1 class="bold title center">Chat</h1>
+                <img src="./images/screen-chat.svg" class="phone center">
+
+            </div>
+        </div>
+
+    </main>
+    <div class="footer flex">
+        <div class="footer--logo">
+            <img src="./images/Kondo-white.svg" class="w-10">
+        </div>
+
+        <div class="flex flex--col footer--links">
+            <a href="#about">Over Kondo</a>
+            <a href="#why">Waarom Kondo?</a>
+            <a href="#price">Prijzen</a>
+            <a href="#steps">Stappenplan</a>
+
+        </div>
+        <div class="flex flex--col footer--links">
+
+            <a href="">Algemene voorwaarden</a>
+            <a href="mailto:r0820751@student.thomasmore.be">Contacteer ons</a>
+        </div>
+        <div class="flex flex--col">
+            <button class="cta mr-5">Download nu</button>
+            <div class="flex mr-5 justify--center social">
+                <a target=”_blank” href="https://www.instagram.com/bram.colleman/" class="green"><i class="fa-brands fa-instagram"></i></a>
+                <a target=”_blank” href="https://www.facebook.com/bram.colleman/" class="green"><i class="fa-brands fa-facebook-square"></i></a>
+                <a target=”_blank” href="https://www.linkedin.com/in/bram-colleman-a6a481175/" class="green"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./scripts/app.js"></script>
+<script>
+    AOS.init( {
+        disable: 'mobile'
+    });
+</script>
+</html>
